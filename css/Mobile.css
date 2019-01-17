@@ -1,0 +1,345 @@
+﻿/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video
+ {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul, ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+th {
+  font-weight: normal;
+}
+input, select {
+    vertical-align:middle;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+-webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+li {
+  list-style: none;
+}
+button {
+  border: 0;
+}
+
+/* EMOTICON */
+.emotiWrap { overflow: hidden;}
+.imotiThumb { width: 100%; height: 10vw; overflow-x: scroll; overflow-y: hidden; border-top: 0.3vw solid #dfdfdf; border-bottom: 0.3vw solid #dfdfdf; position:relative }
+.imotiThumb ul { width: 300%; height:10vw; background:#f3f3f3 }
+.imotiThumb li { float: left; height:10vw; width:12vw; text-align: center; vertical-align: top }
+.imotiThumb li.on { background: #a9b5c3 }
+.imotiThumb li img { width: auto; height: 8vw; margin: 1vw auto }
+.imotiItem { height: 61vw; overflow-y: scroll; border-bottom: 0.3vw solid #dfdfdf }
+.imotiItem ul { padding: 1vw 0; overflow: hidden;}
+.imotiItem li {position: relative; float:left; width:25vw; padding:1vw 0; text-align:center; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.imotiItem li img { width: 100%; max-width: 100%; height: auto }
+.inserImg { position: relative }
+.inserImg img { width: auto; height: 23vw; margin: 3.5vw 2.5vw }
+.inserImg .btnDel { display: block; width: 4.6vw; height: 4.6vw; overflow: hidden; text-indent: -9999px; background: url(/Image/M/NoticeBoard/btn_del_emoti.png) no-repeat center center /contain; position: absolute; top: 0; left: 22vw }
+
+/* 글쓰기 이모티콘 */
+.emoticon-mobile {
+  position: relative;
+  height: 61vw;
+  overflow-y: scroll;
+}
+
+.emoticon-mobile ul {
+  padding: 1vw 0;
+  overflow: hidden;
+}
+
+.emoticon-mobile li {
+  position: relative;
+  float:left;
+  width:25vw;
+  text-align:center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.emoticon-mobile li img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.emoticon-mobile ul li span {
+  display: inline-block;
+  width: 25vw;
+  height: 17vw;
+}
+
+.emoticon-mobile ul li:nth-child(1) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 0 1%;
+}
+
+.emoticon-mobile ul li:nth-child(2) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 33% 1%;
+}
+
+.emoticon-mobile ul li:nth-child(3) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 66% 1%;
+}
+.emoticon-mobile ul li:nth-child(4) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 100% 1%;
+}
+.emoticon-mobile ul li:nth-child(5) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 0 15%;
+}
+.emoticon-mobile ul li:nth-child(6) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 33% 15%;
+}
+.emoticon-mobile ul li:nth-child(7) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 66% 15%;
+}
+.emoticon-mobile ul li:nth-child(8) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 100% 15%;
+}
+.emoticon-mobile ul li:nth-child(9) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 0 29%;
+}
+.emoticon-mobile ul li:nth-child(10) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 33% 29%;
+}
+.emoticon-mobile ul li:nth-child(11) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 66% 29%;
+}
+.emoticon-mobile ul li:nth-child(12) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 100% 29%;
+}
+.emoticon-mobile ul li:nth-child(13) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 0 43.2%;
+}
+.emoticon-mobile ul li:nth-child(14) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 33% 43.2%;
+}
+.emoticon-mobile ul li:nth-child(15) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 66% 43.2%;
+}
+.emoticon-mobile ul li:nth-child(16) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 100% 43.2%;
+}
+
+.emoticon-mobile ul li:nth-child(17) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 0 57.5%;
+}
+
+.emoticon-mobile ul li:nth-child(18) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 33% 57.5%;
+}
+
+.emoticon-mobile ul li:nth-child(19) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 66% 57.5%;
+}
+.emoticon-mobile ul li:nth-child(20) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 100% 57.5%;
+}
+.emoticon-mobile ul li:nth-child(21) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 0 72%;
+}
+.emoticon-mobile ul li:nth-child(22) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 33% 72%;
+}
+.emoticon-mobile ul li:nth-child(23) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 66% 72%;
+}
+.emoticon-mobile ul li:nth-child(24) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 100% 72%;
+}
+.emoticon-mobile ul li:nth-child(25) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 0 85%;
+}
+.emoticon-mobile ul li:nth-child(26) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 33% 85%;
+}
+.emoticon-mobile ul li:nth-child(27) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 66% 85%;
+}
+.emoticon-mobile ul li:nth-child(28) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 100% 85%;
+}
+.emoticon-mobile ul li:nth-child(29) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 0 100%;
+}
+.emoticon-mobile ul li:nth-child(30) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 33% 100%;
+}
+.emoticon-mobile ul li:nth-child(31) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 66% 100%;
+}
+.emoticon-mobile ul li:nth-child(32) span {
+  background: url(/image/m/noticeboard/emcon9.jpg) no-repeat;
+  background-size: 100vw;
+  background-position: 100% 100%;
+}
+
+.emocticon-insert {
+  position: fixed;
+  width: 100vw;
+  height: 130px;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0;
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.emocticon-insert > div {
+  display: inline-block;
+}
+
+.emocticon-insert .close {
+  position: absolute;
+  top: 2vw;
+  right: 2vw;
+  width: 4.6vw;
+  height: 4.6vw;
+  font-size: 0;
+  background: url(/image/m/noticeboard/btn_close_emoticon_preview.png) no-repeat;
+  background-size: 4.6vw;  
+}
